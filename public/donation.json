@@ -1,0 +1,144 @@
+[
+
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/nCdS3st/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052ff26",
+      "text_button_bg": "#0052FF",
+      "description": "The best earning of life is staying healthy. Staying healthy means being physically, mentally and socially fit and stable. Suppose one knows how to have control over their health, then they know how to lead a successful life. If a person is healthy, they will always be ready to work and be productive at work. If one wants to lead a healthy life, one must eat well and maintain the sleep cycle. One can stay fit by exercising daily and maintaining a proper timetable for everything. Keeping a healthy life will definitely encourage you towards a wealthy life.",
+      "price": 12.99
+    },
+
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/NLVcsBX/Education.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "Education refers to the process of providing and receiving instructions, through academic and scholastic efforts.’ Education is a process that begins at home. It differentiates humans from other living things. Education disciplines and develops both academic performances as well as curricular activities. A person learns to read, write, speak, practice activities, and learn various skills through Education. Education makes a person independent and self-sufficient. Learning is a part of Education and can be learned from anyone around us, even from an ant, who teaches us to try until we achieve success. Therefore, one needs to adapt, learn, and educate oneself to become knowledgeable.",
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/vd6bxB1/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79c23f33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Well, I like to collect things as well as I also collect huge species of clothes. Mostly, I like different sorts of clothes such as traditional, western, sports and so on. I also wear clothes according to my taste and occasion. But here I would like to talk about a favorite piece of clothing.Interestingly, it is a red gown and the color is my favorite. I usually wear it on special occasions. I remember I bought this red floor touch which I bought on my brother’s marriage. Me and my sister both went to the market for shopping. Then, I saw this gown on a shop display and attract me.",
+      "price": 18.99
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/Mhc10yX/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "My favorite food is pizza. I love the combination of the crispy crust, the tangy tomato sauce, and the gooey melted cheese. I also enjoy experimenting with different toppings, such as pepperoni, mushrooms, and onions. The best part about pizza is that it’s a versatile dish that can be enjoyed for any meal of the day. Whether it’s a quick lunch or a late-night snack, pizza always hits the spot. The aroma of a freshly baked pizza is a treat that I can never get enough of. I think pizza is the perfect food, as it’s delicious, satisfying, and easy to share with friends and family.",
+      "price": 8.90
+    },
+  
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/Mhc10yX/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "My favorite food is pizza. I love the combination of the crispy crust, the tangy tomato sauce, and the gooey melted cheese. I also enjoy experimenting with different toppings, such as pepperoni, mushrooms, and onions. The best part about pizza is that it’s a versatile dish that can be enjoyed for any meal of the day. Whether it’s a quick lunch or a late-night snack, pizza always hits the spot. The aroma of a freshly baked pizza is a treat that I can never get enough of. I think pizza is the perfect food, as it’s delicious, satisfying, and easy to share with friends and family.",
+        "price": 8.90
+      },
+
+      {
+        "id": 6,
+        "picture": "https://i.ibb.co/vd6bxB1/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Well, I like to collect things as well as I also collect huge species of clothes. Mostly, I like different sorts of clothes such as traditional, western, sports and so on. I also wear clothes according to my taste and occasion. But here I would like to talk about a favorite piece of clothing.Interestingly, it is a red gown and the color is my favorite. I usually wear it on special occasions. I remember I bought this red floor touch which I bought on my brother’s marriage. Me and my sister both went to the market for shopping. Then, I saw this gown on a shop display and attract me.",
+        "price": 18.99
+      },
+
+      {
+        "id": 7,
+        "picture": "https://i.ibb.co/NLVcsBX/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "Education refers to the process of providing and receiving instructions, through academic and scholastic efforts.’ Education is a process that begins at home. It differentiates humans from other living things. Education disciplines and develops both academic performances as well as curricular activities. A person learns to read, write, speak, practice activities, and learn various skills through Education. Education makes a person independent and self-sufficient. Learning is a part of Education and can be learned from anyone around us, even from an ant, who teaches us to try until we achieve success. Therefore, one needs to adapt, learn, and educate oneself to become knowledgeable.",
+        "price": 14.99
+      },
+
+      {
+        "id": 8,
+        "picture": "https://i.ibb.co/nCdS3st/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "The best earning of life is staying healthy. Staying healthy means being physically, mentally and socially fit and stable. Suppose one knows how to have control over their health, then they know how to lead a successful life. If a person is healthy, they will always be ready to work and be productive at work. If one wants to lead a healthy life, one must eat well and maintain the sleep cycle. One can stay fit by exercising daily and maintaining a proper timetable for everything. Keeping a healthy life will definitely encourage you towards a wealthy life.",
+        "price": 12.99
+      },
+      {
+        "id": 9,
+        "picture": "https://i.ibb.co/nCdS3st/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "The best earning of life is staying healthy. Staying healthy means being physically, mentally and socially fit and stable. Suppose one knows how to have control over their health, then they know how to lead a successful life. If a person is healthy, they will always be ready to work and be productive at work. If one wants to lead a healthy life, one must eat well and maintain the sleep cycle. One can stay fit by exercising daily and maintaining a proper timetable for everything. Keeping a healthy life will definitely encourage you towards a wealthy life.",
+        "price": 12.99
+      },
+  
+      {
+        "id": 10,
+        "picture": "https://i.ibb.co/NLVcsBX/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "Education refers to the process of providing and receiving instructions, through academic and scholastic efforts.’ Education is a process that begins at home. It differentiates humans from other living things. Education disciplines and develops both academic performances as well as curricular activities. A person learns to read, write, speak, practice activities, and learn various skills through Education. Education makes a person independent and self-sufficient. Learning is a part of Education and can be learned from anyone around us, even from an ant, who teaches us to try until we achieve success. Therefore, one needs to adapt, learn, and educate oneself to become knowledgeable.",
+        "price": 14.99
+      },
+      {
+        "id": 11,
+        "picture": "https://i.ibb.co/vd6bxB1/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Well, I like to collect things as well as I also collect huge species of clothes. Mostly, I like different sorts of clothes such as traditional, western, sports and so on. I also wear clothes according to my taste and occasion. But here I would like to talk about a favorite piece of clothing.Interestingly, it is a red gown and the color is my favorite. I usually wear it on special occasions. I remember I bought this red floor touch which I bought on my brother’s marriage. Me and my sister both went to the market for shopping. Then, I saw this gown on a shop display and attract me.",
+        "price": 18.99
+      },
+      {
+        "id": 12,
+        "picture": "https://i.ibb.co/Mhc10yX/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "My favorite food is pizza. I love the combination of the crispy crust, the tangy tomato sauce, and the gooey melted cheese. I also enjoy experimenting with different toppings, such as pepperoni, mushrooms, and onions. The best part about pizza is that it’s a versatile dish that can be enjoyed for any meal of the day. Whether it’s a quick lunch or a late-night snack, pizza always hits the spot. The aroma of a freshly baked pizza is a treat that I can never get enough of. I think pizza is the perfect food, as it’s delicious, satisfying, and easy to share with friends and family.",
+        "price": 8.90
+      }
+  
+
+]
+  
