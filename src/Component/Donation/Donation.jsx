@@ -10,7 +10,7 @@ const Donation = () => {
     useEffect(() => {
       const storedDonation = getStoredDonation()
       if (donation.length > 0) {
-        const donationSend = donation.filter((donate) => storedDonation.includes(donate.id));
+        const donationSend = donation.filter(donate => storedDonation.includes(donate.id));
         setDonated(donationSend);
       }
     }, [donation]);
