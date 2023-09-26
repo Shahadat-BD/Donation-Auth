@@ -17,9 +17,9 @@ const Donation = () => {
     return (
         <div className='lg:w-[80%] w-[90%] m-auto my-10'>
              <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
-             {
+             { 
                 donated.slice(0,donateLength).map(donates => 
-                    <div className='flex lg:flex-row md:flex-row flex-col gap-5 rounded-md' style={{backgroundColor:donates.card_bg}}>
+                    <div key={donates.id} className='flex lg:flex-row md:flex-row flex-col gap-5 rounded-md' style={{backgroundColor:donates.card_bg}}>
                         <img className='lg:w-[220px] lg:h-48 md:w-[280px]  w-full' src={donates.picture}/>
                         <div className='lg:p-0 p-5'>
                             <button className='px-3 py-1 rounded-md my-3' style={{color:donates.text_button_bg, backgroundColor:donates.category_bg}}>{donates.category}</button>
@@ -30,15 +30,19 @@ const Donation = () => {
                         
                     </div>
                 )
+              
              }
              </div>
-            {
-               <div style={{textAlign:'center'}} className={donateLength === donated.length && "hidden"}>
+            
+               
+                  <div style={{textAlign:'center'}} className={donateLength >= donated.length && "hidden"}>
                
                   <button onClick={()=> setDonateLength(donated.length)} className='text-white bg-[#009444] px-6 py-3 rounded-md my-8 font-semibold'>See All</button>
-               
+                 
+                 
+                
              </div>
-            }
+            
         </div>
     );
 };

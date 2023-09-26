@@ -13,13 +13,11 @@ const Banner = () => {
              e.preventDefault()
              
         const category = e.target.category.value
-        console.log(search);
                 const filterCategory = search.filter(searchCat => searchCat.category === category)
-                       console.log(filterCategory);
                 setSearch(filterCategory)
                  e.target.category.value = ''
-
-     }
+         
+     } 
      
 
     return (
