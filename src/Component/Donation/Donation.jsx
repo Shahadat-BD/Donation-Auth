@@ -32,14 +32,13 @@ const Donation = () => {
                 )
              }
              </div>
-             <div className='text-center'>
             {
-                donateLength === donated.length ?
-               ''
-               :
-               <button onClick={()=> setDonateLength(donated.length)} className='text-white bg-[#009444] px-6 py-3 rounded-md my-8 font-semibold'>See All</button>
+               <div style={{textAlign:'center'}} className={donateLength === donated.length && "hidden"}>
+               
+                  <button onClick={()=> setDonateLength(donated.length)} className='text-white bg-[#009444] px-6 py-3 rounded-md my-8 font-semibold'>See All</button>
+               
+             </div>
             }
-          </div>
         </div>
     );
 };
