@@ -1,3 +1,5 @@
+
+
 const getStoredDonation = () =>{
    const storedDonation = localStorage.getItem('donation')
    if (storedDonation) {
@@ -6,12 +8,15 @@ const getStoredDonation = () =>{
    return [];
 }
 
-   const saveDonated = id => {
+   const saveDonated = (id,toast) => {
       const storedDonation = getStoredDonation();
       const exists = storedDonation.find(donateId => donateId === id)
       if (!exists) {
          storedDonation.push(id);
          localStorage.setItem('donation',JSON.stringify(storedDonation))
+          toast("donation successfully added")
+      }else{
+        return  toast('donation already added. sorry!')
       }
    }
 

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { saveDonated } from '../../Utility/LocalStorage';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const CardDetails = () => {
     const donateInfo = useLoaderData()
@@ -17,9 +20,7 @@ const CardDetails = () => {
     const {description,picture,price,title,text_button_bg} = donateDetails
 
 const handleDonatedSend = () =>{
-     saveDonated(intId)
-     alert("successfull added")
-
+     saveDonated(intId,toast)
 }
 
     return (
@@ -32,6 +33,7 @@ const handleDonatedSend = () =>{
                    <button onClick={handleDonatedSend} className='absolute -mt-[70px] ml-5 px-10 text-white font-semibold py-3 rounded-md' style={{backgroundColor:text_button_bg}}>Donate ${price}</button> 
                   <h3 className='text-3xl font-bold my-8'>{title}</h3>
                  <p>{description}</p>
+                 <ToastContainer></ToastContainer>
             </div>
         </div>
     );
