@@ -40,17 +40,22 @@ const [donated, setDonated] = useState([]);
           width={'100%'}
           height={500}
           series={[ TotalDonation , TotalYourDonation]}
-        
-          options={{      
+          options={ {      
             labels:['total donation', 'your donation'],
-            
-            dataLabels:{
+            colors: [
+              "#FF444A",
+              "#00C49F",
+            ],
+        
+            legend: {
+              position: 'bottom'
+          },
+          
+         dataLabels:{
                style:{
-                fontSize:'20px',
+                fontSize:'16px',
                 fontWeight:'bold',
-                
-               }
-               
+               },  
             },
             title:{
               text:"Pie chart"

@@ -18,6 +18,8 @@ const CardDetails = () => {
 
 const handleDonatedSend = () =>{
      saveDonated(intId)
+     alert("successfull added")
+
 }
 
     return (
