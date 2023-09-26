@@ -3,19 +3,26 @@ import './Banner.css'
 import AllCard from '../AllCard/AllCard';
 const Banner = () => {
    const [search,setSearch] = useState([])
+   const [input,setInput] = useState([])
+
     useEffect(()=>{
           fetch('donation.json')
           .then(res=> res.json())
-          .then(data => setSearch(data))
+          .then(data => {
+            setSearch(data)
+            setInput(data)
+        })
     },[])
-    
+
+
      const handleSearchCategory = e => {
              e.preventDefault()
-             
+             const allData = input
         const category = e.target.category.value
-                const filterCategory = search.filter(searchCat => searchCat.category === category)
-                setSearch(filterCategory)
-                 e.target.category.value = ''
+                const filterCategory = allData.filter(searchCat => searchCat.category === category)
+                    console.log(filterCategory);
+                 setSearch(filterCategory)
+                 e.target.category.value = '' 
          
      } 
      
