@@ -35,7 +35,6 @@ const Donation = () => {
              <div className='text-center'>
             {
                 donateLength === donated.length ?
-
                ''
                :
                <button onClick={()=> setDonateLength(donated.length)} className='text-white bg-[#009444] px-6 py-3 rounded-md my-8 font-semibold'>See All</button>

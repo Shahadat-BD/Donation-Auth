@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { saveDonated } from '../../Utility/LocalStorage';
 
 const CardDetails = () => {
     const donateInfo = useLoaderData()
-    const {id}     =   useParams()
+    const [donateDetails,setDonateDetails] = useState({})
+
+    const {id} = useParams()
     const intId = parseInt(id)
-    const donateInfoCard = donateInfo.find(info => info.id === intId)
-    const {description,picture,price,title,text_button_bg} = donateInfoCard
+
+    useEffect(()=>{
+        const donateInfoCard = donateInfo.find(info => info.id === intId)
+              setDonateDetails(donateInfoCard)
+    },[intId,donateInfo])
+
+    const {description,picture,price,title,text_button_bg} = donateDetails
 
 const handleDonatedSend = () =>{
      saveDonated(intId)
