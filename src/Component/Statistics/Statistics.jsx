@@ -35,7 +35,7 @@ const [donated, setDonated] = useState([]);
     return (
         <div className='lg:w-[80%] w-[90%] m-auto'>
         
-         <Chart className=''
+         <Chart 
          type='pie'
           width={'100%'}
           height={500}

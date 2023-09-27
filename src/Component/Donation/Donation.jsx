@@ -14,8 +14,17 @@ const Donation = () => {
         setDonated(donationSend);
       }
     }, [donation]);
+
+
+    const handleRemove =()=>{
+      localStorage.clear()
+      setDonated([])
+      
+    }
+
     return (
-        <div className='lg:w-[80%] w-[90%] m-auto my-10'>
+        <div className='lg:w-[80%] w-[90%] m-auto my-8'>
+            <div style={{textAlign:'center'}} className={donated.length == 0 && 'hidden'} > <button onClick={handleRemove} className='bg-red-500 text-white px-5 py-2 mb-5'>Remove donation</button> </div>
              <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
              { 
                 donated.slice(0,donateLength).map(donates => 

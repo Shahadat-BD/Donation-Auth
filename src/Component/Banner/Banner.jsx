@@ -17,8 +17,8 @@ const Banner = () => {
 
      const handleSearchCategory = e => {
              e.preventDefault()
-             const allData = input
-        const category = e.target.category.value
+        const allData = input
+        const category = e.target.category.value.trim()
                 const filterCategory = allData.filter(searchCat => searchCat.category === category)
                     console.log(filterCategory);
                  setSearch(filterCategory)
@@ -36,7 +36,7 @@ const Banner = () => {
                     <div className="">
                         <form className='flex justify-center join' onSubmit={handleSearchCategory} >
                         <input  name='category' className="input input-bordered join-item w-[65%]" placeholder="Search Here"/>
-                        <input type='submit'  className="px-5 join-item rounded-r-md bg-red-500 text-white" value={'Search'}></input>
+                        <input type='submit'   className="px-5 join-item rounded-r-md bg-red-500 text-white" value={'Search'}></input>
                         </form>
                     </div>
                 </div>
