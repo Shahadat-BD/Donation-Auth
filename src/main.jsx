@@ -12,6 +12,9 @@ import Donation from './Component/Donation/Donation.jsx';
 import Statistics from './Component/Statistics/Statistics.jsx';
 import CardDetails from './Component/CardDetails/CardDetails.jsx';
 import ErrorMessage from './Component/ErrorMessage/ErrorMessage.jsx';
+import Login from './Authentication/Login/Login.jsx';
+import AuthProvider from './AuthProvider/AuthProvider.jsx';
+import PrivateRoute from './PrivateRoute/PrivateRoute.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,12 +28,12 @@ const router = createBrowserRouter([
       },
       {
         path:"/donation",
-        element:<Donation></Donation>,
+        element:<PrivateRoute><Donation></Donation>,</PrivateRoute>,
         loader: ()=> fetch('/donation.json'),
       },
       {
         path:"/card/:id",
-        element:<CardDetails></CardDetails>,
+        element:<PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
         loader: ()=> fetch('/donation.json')
       },
 
@@ -39,12 +42,18 @@ const router = createBrowserRouter([
         element:<Statistics></Statistics>,
         loader: ()=> fetch('/donation.json'),
       },
+      {
+        path:'/login',
+        element:<Login></Login>
+      }
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+   <AuthProvider>
+     <RouterProvider router={router} />
+   </AuthProvider>
   </React.StrictMode>,
 )
